@@ -1,0 +1,64 @@
+body{
+	background-image: url('img/bg.jpg');
+	background-size: cover;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+div.card{
+	width:70%;
+	height:80%;
+	min-width:890px;
+	min-height:650px;
+	border-radius: 25px;
+	margin: 2% auto;
+	padding: 20px 20px 20px 50px;
+	box-shadow: 0px 0px 95px -12px rgba(0,0,0,0.75);
+	background: white;
+	font-weight: 300;
+	background: #F4F4F4 url(img/panel_0.png) center right no-repeat;
+	position:relative;
+}
+
+div.card h2{
+	border-bottom: 1px solid #CCCCCC;
+	width:20%;
+	font-weight: 500;
+	font-size:48px;
+}
+
+div.lcol{
+	width:70%;
+	height:75%;
+	overflow-y: hidden;
+	z-index:100;
+}
+
+div.lcol p{
+	height:100%;
+}
+
+div.lcol a#m{
+	border-radius: 5px;
+	padding: 10px 15px;
+	margin-top: -100px;
+	background-color:black;
+	position:absolute;
+	bottom:100px;
+	left:50px;
+	color: white;
+	text-decoration: none;
+	display:none;
+}
+
+div.buttons a{
+	text-decoration:none;
+	color: gray;
+	font-size:24pt;
+	margin:20px;
+}
+div.buttons{
+	width:93%;
+	bottom:10px;
+	position:absolute;
+	text-align:center;
+}
